@@ -8,13 +8,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-
       <body>
         <div className="min-h-screen text-4xl ">
           {children}
         </div>
       </body>
-
     </html>
   )
 }
